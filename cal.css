@@ -1,0 +1,38 @@
+#one{
+    width: 330px;
+    height: 400px;
+    border: 2px solid rgb(177, 71, 71);
+    position: relative;
+    left: 400px;
+    top:50px;
+    border-radius: 5px;
+}
+#two{
+    width: 230px;
+    height: 80px;
+    border: 2px solid rgb(62, 9, 176);
+    position: relative;
+    top: 20px;
+    left: 45px;
+    border-radius: 5px;
+    font-size: large;
+}
+.three{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows:40px 30px 30px 30px 30px 40px;
+    gap: 2px;
+    position: relative;
+    left: 13px;
+    top: 5px;
+    height: 60px;
+}
+#z{
+    position: relative;
+    left: 42px;
+}
+#d{
+    position: relative;
+    left: 42px;
+}

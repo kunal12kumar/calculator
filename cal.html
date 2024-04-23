@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cal.css">
+  <title>Kunal calculator</title>
+</head>
+<body>
+  <div id="one">
+    <div>
+    <input id="two" type="text" readonly>
+    </div>
+    <div class="three">
+
+    <button onclick="currentdisplay='';
+    document.querySelector('#two').value=currentdisplay;">c</button>
+
+    <button onclick="currentdisplay=currentdisplay +`1`;
+    document.querySelector('#two').value=currentdisplay;">1</button>
+
+
+    <button onclick="currentdisplay=currentdisplay +`2`;
+    document.querySelector('#two').value=currentdisplay;">2</button>
+
+
+    <button onclick="currentdisplay=currentdisplay +`+`;
+    document.querySelector('#two').value=currentdisplay;">+</button>
+
+
+    <button  onclick="currentdisplay=currentdisplay +`3`;
+    document.querySelector('#two').value=currentdisplay;">3</button>
+
+
+
+
+    <button onclick="currentdisplay=currentdisplay +`4`;
+    document.querySelector('#two').value=currentdisplay;">4</button>
+
+
+    <button onclick="currentdisplay=currentdisplay +`-`;
+    document.querySelector('#two').value=currentdisplay;">-</button>
+
+
+    <button onclick="currentdisplay=currentdisplay +`5`;
+    document.querySelector('#two').value=currentdisplay;">5</button>
+
+
+    <button onclick="currentdisplay=currentdisplay +`6`;
+    document.querySelector('#two').value=currentdisplay;">6</button>
+
+
+    <button onclick="currentdisplay=currentdisplay +`*`;
+    document.querySelector('#two').value=currentdisplay;">*</button>
+
+
+    <button onclick="currentdisplay=currentdisplay +`7`;
+    document.querySelector('#two').value=currentdisplay;">7</button>
+
+
+    <button onclick="currentdisplay=currentdisplay +`8`;
+    document.querySelector('#two').value=currentdisplay;">8</button>
+
+
+    <button onclick="currentdisplay=currentdisplay +`/`;
+    document.querySelector('#two').value=currentdisplay;">/</button>
+
+
+    <button onclick="currentdisplay=eval(currentdisplay)
+    document.querySelector('#two').value=currentdisplay;">=</button>
+
+    <button onclick="currentdisplay=currentdisplay +`9`;
+    document.querySelector('#two').value=currentdisplay;">9</button>
+
+
+    <button  onclick="currentdisplay=currentdisplay +`0`;
+    document.querySelector('#two').value=currentdisplay;">0</button>
+
+
+    <button  onclick="currentdisplay=currentdisplay + `.`;
+    document.querySelector('#two').value=currentdisplay;">.</button>
+
+    <button  onclick="currentdisplay=currentdisplay + `)`;
+    document.querySelector('#two').value=currentdisplay;">)</button>
+
+    <button  onclick="currentdisplay=currentdisplay + `(`;
+    document.querySelector('#two').value=currentdisplay;">(</button>
+
+
+    </div>
+  </div>
+  <script src="cal.js"></script>
+</body>
+</html>
